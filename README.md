@@ -1,2 +1,2 @@
 # ProjectEuler
-My solutions for problems in Project Euler.
+Solutions for problems in Project Euler.
