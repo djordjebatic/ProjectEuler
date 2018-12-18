@@ -1,5 +1,4 @@
 	function largestPrimeFactor(number) {
-	  // Good luck!
 	  for ( var i = 2; i < number; i++ ){
 		if (number % i === 0){
 		  number = number/i;
