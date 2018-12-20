@@ -22,7 +22,6 @@ function longestCollatzSequence(limit) {
 
   for (var i = 2; i<= limit; i++){
     var k = 0;
-    //var length = 1;
     num = i;
     while(num!=1 && num >=i){
       k++;
@@ -32,7 +31,6 @@ function longestCollatzSequence(limit) {
       else{
         num = 3*num + 1;
       }
-      length++;
     }
 
     cache[i] = k + cache[num];
