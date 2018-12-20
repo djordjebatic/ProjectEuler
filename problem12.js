@@ -31,9 +31,9 @@ function divisibleTriangleNumber(n) {
 
 function divisors(x) {
   var counter = 0;
-  for(var i = 1; i*i <= x; i++){
+  for(var i = 1; i*i <= x; i++){//optimizacija i <= sqrt(x) drasticno skracuje vreme izvrsavanja
     if (x % i === 0)
-      counter+=2;
+      counter+=2;               //drugi deo deljenika(npr. ako su za i<=sqrt(36) deljenici 1 2 3 4 6 moram uvrstiti i 9 12 18 36 )
   }
   return counter;
 }
