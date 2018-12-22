@@ -26,6 +26,7 @@ Find the maximum total from top to bottom of the triangle below:
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 
 */
+//solution using dynamic programming(from the bottom up)
 
 function solution(t) {
     for (i = t.length - 2; i >= 0; i--){
