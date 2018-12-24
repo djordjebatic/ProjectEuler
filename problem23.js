@@ -1,4 +1,4 @@
-function canBeWrittenAsAbudndent(n) {
+function canBeWrittenAsAbudent(n) {
   
   var abudent = [];
 
@@ -42,4 +42,4 @@ function properDivisorsSum(x) {
   return sum;
 }
 
-console.log(canBeWrittenAsAbudndent(28123));
+console.log(canBeWrittenAsAbudent(28123));
